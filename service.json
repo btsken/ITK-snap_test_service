@@ -1,0 +1,18 @@
+{
+  "name": "Liver",
+  "version": "0.1.0",
+  "keywords": [
+    "liver"
+  ],
+  "shortdesc": "DSS tutorial service (deformable registration)",
+  "url": "www.google.com",
+  "longdesc": "Given a target image and a source image with labels, perform registration and map labels from the source image to the target image",
+  "tags": [
+    {
+      "name": "Target",
+      "type": "MainImage",
+      "hint": "The anatomical image onto which you want to warp the segmentation",
+      "required": true
+    }
+  ]
+}
